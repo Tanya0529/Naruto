@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;1,400&family=Mukta:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #FFBF00	
+}
+
+.w-img{
+    width: 100vw;
+    height: 26vw;
+}
+
+
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
+
+p {
+    margin: 0px 2px;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1400px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 39%;
+        margin: 7px 37px;
+      }
+} 
+
+@media screen and (min-width: 991px) and (max-width: 1196px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 42%;
+        margin: 7px 37px;
+      }
+} 
+
+body{
+    height: 100%;
+    font-family: 'Mukta', sans-serif;
+	
+}
+
+h1{
+   
+    font-size: 39px;
+    color: chocolate;
+   
+}
+
+.p1{
+    border: 4px solid black;
+    margin: 15px 443px;
+    
+     
+}
+
+h1:hover{
+    background-color: black;
+}
+
+.para{
+    width: 59vw;
+
+text-align: center;
+margin: 3px auto;
+}
+
+.colo{
+    color: blueviolet;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.brow{
+    color: brown;
+}
+
+.bc{
+    background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 1318px) {
+    .p1{
+        margin: 15px 370px;
+    }
+} 
+
+@media screen and (max-width: 1154px) {
+    .p1{
+        margin: 15px 299px;
+    }
+} 
+
+@media screen and (max-width: 1012px) {
+    .p1{
+        margin: 15px 220px;
+    }
+} 
+
+@media screen and (max-width: 854px) {
+    .p1{
+        margin: 15px 160px;
+    }
+} 
+
+@media screen and (max-width: 734px) {
+    h1{
+        font-size: 35px;
+    }
+    .w-img {
+        
+        height: 36vw;
+      }
+} 
+
+@media screen and (max-width: 692px) {
+    .p1{
+        margin: 15px 119px;
+    }
+} 
+
+@media screen and (max-width: 610px) {
+    .p1{
+        margin: 15px 73px;
+    }
+    .para {
+        width: 73vw;
+    }    
+} 
+
+@media screen and (max-width: 522px) {
+    h1{
+        font-size: 31px;
+    }
+    .w-img {
+       
+        height: 49vw;
+      }
+} 
+
+@media screen and (max-width: 482px) {
+    .p1{
+        margin: 15px 48px;
+    }
+    .para {
+        width: 92vw;
+    }    
+} 
+
+@media screen and (max-width: 430px) {
+    h1{
+        font-size: 27px;
+    }
+} 
+
+@media screen and (max-width: 385px) {
+    .p1{
+        margin: 15px 28px;
+    }
+    .w-img {
+        
+        height: 67vw;
+      }
+} 
+
+@media screen and (max-width: 345px) {
+    h1{
+        font-size: 23px;
+    }
+    .para {
+        width: 96vw;
+      }
+} 
+
+@media screen and (max-width: 305px) {
+    h1{
+        font-size: 21px;
+    }
+} 
+
+
+
